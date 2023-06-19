@@ -8,22 +8,23 @@
 
 - Basics
   - (ArrayList)[#arraylist]
-    - Set
-    - Map
-    - List
-    - ArrayDeque
-    - Collection
-    - Grouping
-    - Hash
-      - HashMap
-      - HashSet
-      - LinkedHashMap
-      - LinkedHashSet
-    - IndexedValue
-    - Iterable
-      - Iterator
-      - ShortIterator
-    - RandomAccess
+  - Set
+  - Map
+  - List
+  - ArrayDeque
+  - Collection
+  - Grouping
+  - Hash
+    - HashMap
+    - HashSet
+    - LinkedHashMap
+    - LinkedHashSet
+  - IndexedValue
+  - Iterable
+    - Iterator
+    - ShortIterator
+  - RandomAccess
+  - (Scope Functions)[#scope-functions]
 - Advanced
   - (Linked List)[#linked-list]
   - Stack
@@ -54,7 +55,7 @@
 - [ ] Tuples in arrays
 - [ ] Comparators in arrays
 
-### [Scope Functions](https://kotlinlang.org/docs/scope-functions.html
+### [Scope Functions](https://kotlinlang.org/docs/scope-functions.html)
 
 - [X] let
 - [X] with
