@@ -7,25 +7,25 @@
 ## Table of Contents
 
 - Basics
-  - ArrayList
-  - Set
-  - Map
-  - List
-  - ArrayDeque
-  - Collection
-  - Grouping
-  - Hash
-    - HashMap
-    - HashSet
-    - LinkedHashMap
-    - LinkedHashSet
-  - IndexedValue
-  - Iterable
-    - Iterator
-    - ShortIterator
-  - RandomAccess
+  - (ArrayList)[#arraylist]
+    - Set
+    - Map
+    - List
+    - ArrayDeque
+    - Collection
+    - Grouping
+    - Hash
+      - HashMap
+      - HashSet
+      - LinkedHashMap
+      - LinkedHashSet
+    - IndexedValue
+    - Iterable
+      - Iterator
+      - ShortIterator
+    - RandomAccess
 - Advanced
-  - Linked List
+  - (Linked List)[#linked-list]
   - Stack
   - Queue
   - Tree
@@ -60,6 +60,14 @@
 - [X] with
 - [X] apply
 - [X] also
+
+### [Linked List](https://www.educative.io/blog/data-structures-linked-list-java-tutorial)
+
+- [X] Singly Linked List. A singly linked list is unidirectional, meaning that it can be traversed in only one direction from head to the last node (tail)
+- [ ] Singly Linked List (Uni-directional). A doubly linked list is a list that has two references, one to the next node and another to previous node.
+- [ ] Circular Linked List. A circular linked list is a list that has a pointer from the last node to the first node.
+- [ ] Doubly Linked List (Bi-directional). A doubly linked list is a list that has two references, one to the next node and another to previous node.
+
 
 
 **Resources:**
