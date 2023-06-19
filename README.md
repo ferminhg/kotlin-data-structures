@@ -44,13 +44,22 @@
 
 - [X] Simple array
 - [X] Remove array elements
-- [ ] Slicing arrays
-- [ ] [Map functions on arrays](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/): `map`, `filter`, `reduce`, `any`, `contains`, `filterValues`,
-  - [ ] FlatMap functions
-  - [ ] iterator functions
-  - [ ] maxOf and minOf functions
-  - [ ] onEach function
-  - [ ] plus function
+- [X] Slicing arrays
+- [X] [Map functions on arrays](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/): `map`, `filter`, `reduce`, `any`, `contains`, `filterValues`,
+  - [X] FlatMap functions
+  - [X] maxOf and minOf functions
+  - [X] onEach function
+  - [X] plus on minus function
+- [X] Create an array from range and until functions
+- [ ] Tuples in arrays
+- [ ] Comparators in arrays
+
+### [Scope Functions](https://kotlinlang.org/docs/scope-functions.html
+
+- [X] let
+- [X] with
+- [X] apply
+- [X] also
 
 
 **Resources:**
