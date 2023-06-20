@@ -1,41 +1,41 @@
 
-class Node(val data: Int) {
-    var next: Node? = null
+class NodeUni(val data: Int) {
+    var next: NodeUni ?= null
+    var previous: NodeUni ?= null
 }
 
-class SinglyLinkedList {
-    private var list: Node? = null
+class SinglyLinkedListUni {
+    private var list: NodeUni ?= null
+
+    fun insertAtHead(data: Int) {
+        val node = NodeUni(data)
+        node.next = list
+        list = node
+    }
 
     fun insertAtEnd(data: Int) {
-        val node = Node(data)
+        val node = NodeUni(data)
 
         list?.let {
             var current = it
             while (current.next != null) {
                 current = current.next!!
             }
+            node.previous = current
             current.next = node
         } ?: run {
+            node.previous = null
             list = node
         }
-    }
-
-    fun insertAtHead(data: Int) {
-        val node = Node(data)
-        node.next = list
-        list = node
-    }
-    fun isEmpty(): Boolean {
-        return list == null
     }
 
     fun deleteAtHead() {
         list = list?.next
     }
 
-    fun deleteAtEnd(){
+    fun deleteAtEnd() {
         var current = list
-        var previous: Node? = current
+        var previous: NodeUni? = current
         while (current?.next != null) {
             previous = current
             current = current.next
@@ -55,6 +55,6 @@ class SinglyLinkedList {
             arrayList.add(current.data)
             current = current.next
         }
-        return arrayList.joinToString(" -> ")
+        return arrayList.joinToString(" <-> ")
     }
 }
