@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - Basics
-  - (ArrayList)[#arraylist]
+  - [ArrayList](#arraylist)
   - Set
   - Map
   - List
@@ -24,11 +24,10 @@
     - Iterator
     - ShortIterator
   - RandomAccess
-  - (Scope Functions)[#scope-functions]
+  - [Scope Functions](#scope-functions)
 - Advanced
-  - (Linked List)[#linked-list]
-  - Stack
-  - Queue
+  - [Linked List](#linked-list)
+  - [Stack & Queue](#stacks-and-queues)
   - Tree
   - Graph
   - Heap
@@ -66,10 +65,13 @@
 
 - [X] Singly Linked List. A singly linked list is unidirectional, meaning that it can be traversed in only one direction from head to the last node (tail)
 - [X] Singly Linked List (Uni-directional). A doubly linked list is a list that has two references, one to the next node and another to previous node.
-- [ ] Circular Linked List. A circular linked list is a list that has a pointer from the last node to the first node.
-- [ ] Doubly Linked List (Bi-directional). A doubly linked list is a list that has two references, one to the next node and another to previous node.
+- [X] Circular Linked List. A circular linked list is a list that has a pointer from the last node to the first node.
+- [X] Doubly Linked List (Bi-directional). A doubly linked list is a list that has two references, one to the next node and another to previous node.
 
+### [Stacks and Queues](https://www.educative.io/blog/data-structures-stack-queue-java-tutorial#stack)
 
+- [X] Stack
+- [X] Queue
 
 **Resources:**
 - [Data Structures 101: a tutorial on arrays in JavaScript](https://www.educative.io/blog/data-structures-arrays-javascript-tutorial)
